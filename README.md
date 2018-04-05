@@ -6,6 +6,8 @@
  
  For stability considerations, the maximum speed of the robot had to be set depending on the characteristics of thetrack on which the robot runs. This reduces the average speed of the robot because the speed needs to be reduced so that the robot is stable when negotiating sharp curves.In order to avoid this problem and to improve performance, the speed of the robot needs to be dynamically changed depending on curvature of the track. To achieve this, an additional parameter has been introduced which is henceforth called the speed reduction parameter. The speed reduction parameter is similar to the modified integral control parameter but it reduces the speed of both motors.
  
+ ![Screenshot](lfr.jpg)
+ 
  My robot was based on an Arduino Uno board.To get the line position I used QTR-8A.The motors I used were Polulu 10:1 microcontrolers driven by L298N H-Bridge.
   
 # References:
